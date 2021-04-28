@@ -18,7 +18,6 @@ var refreshId = setInterval(() => {
     for ( var i=0; i<elements.length; i++) {
 		if(elements[i].innerHTML.indexOf("Brasil") !== -1){
 		elements[i].style.display="none";
-		console.log('removed');
 		}
     }
 	console.log(i);
