@@ -20,14 +20,13 @@ var refreshId = setInterval(() => {
 		elements[i].style.display="none";
 		}
     }
-	console.log(i);
   }
   // check if timeout
   if (timer++ >= maxSeconds) {
     clearInterval(refreshId);
-    console.log('Error: Max allowed seconds exceeds.');
   }
 }, 200);
+
 
 
 
