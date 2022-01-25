@@ -7,6 +7,7 @@
   
 "content_scripts": [
     {
+		"persistent": true,
         "matches": ["<all_urls>"],
         "js": ["/cs.js"]
     }
@@ -16,7 +17,7 @@
    "default_popup": "popup.html"
   },
   "background": {
-    "persistent": false,
+    "persistent": true,
     "scripts": [ "background.js"]
 },
 "permissions": [
